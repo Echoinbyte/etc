@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✉️ ETC — Email Template Components
 
-## Getting Started
+**ETC** (Email Template Components) is your go-to open-source hub to **publish, preview, copy, and contribute** to
+HTML + CSS email templates. Whether you're a solo dev, indie hacker, startup, or part of a marketing team, ETC makes
+email development **as easy as copy, paste, and send.**
 
-First, run the development server:
+[![ETC Demo](https://etc.vercel.app/demo.png)](https://etc.vercel.app)  
+🔗 [Live Site](https://etc.vercel.app)
+
+---
+
+## ⚡ Why ETC?
+
+Creating email templates that look good across clients is a **headache**. ETC solves that pain by offering:
+
+✅ Instant **template previews**  
+✅ Clean, copyable **HTML/CSS snippets**  
+✅ **Community contributions** for faster iteration  
+✅ Built-in **responsive support**  
+✅ Zero setup. **Plug-and-play** simplicity
+
+> ✨ Spend less time coding HTML tables and more time shipping.
+
+---
+
+## 🔥 Core Features
+
+- 🔍 **Live Preview** — See exactly what you’re sending before you hit send.
+- 💾 **One-click Copy** — Grab production-ready HTML + CSS.
+- 📤 **Publish Templates** — Share your own or fork existing ones.
+- 🛠️ **Contribute & Customize** — Build on others’ work and collaborate.
+- 🧩 **Component-based Layouts** — Organized and easy to scale.
+
+---
+
+## 🧭 Pages & Navigation
+
+| Route                | Description                                |
+|----------------------|--------------------------------------------|
+| `/` or `/home`       | Discover curated email templates           |
+| `/community`         | Browse user-contributed designs            |
+| `/publish`           | Publish your own email component           |
+| `/contribute`        | Edit, enhance, or remix existing templates |
+| `/about`, `/contact` | Learn about ETC or reach out to the team   |
+
+---
+
+## 🧑‍💻 Ideal For...
+
+- Devs who are sick of writing `<table>`-based layouts 😅
+- Startups building brand-consistent templates fast
+- Agencies with repeat client email formats
+- OSS contributors wanting to improve developer DX
+
+---
+
+## 🚀 Getting Started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Clone the repo
+git clone https://github.com/yourname/etc.git
+cd etc
+
+# Install dependencies
+pnpm install
+
+# Run locally
 pnpm dev
-# or
-bun dev
+🖥 Visit http://localhost:3000 to explore.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 🧰 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js 15
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tailwind CSS
 
-## Learn More
+ShadCN/UI
 
-To learn more about Next.js, take a look at the following resources:
+TypeScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+PostgreSQL + Drizzle + Prisma
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Zustand, UploadThing, Sonner
 
-## Deploy on Vercel
+# 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We love contributions!
+Whether you're fixing bugs, adding templates, or suggesting UX improvements — all help is welcome.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+# Fork the repo
+git checkout -b feat/your-feature
+
+# Make your magic
+git commit -m "feat: add modern transactional email template"
+git push origin feat/your-feature
+```
+
+Then open a PR!
+
+# 📄 License
+
+MIT © Sambhav Aryal
+
+# 💌 Build less. Send more.
+
+ETC — Email Templates Made Seamless.
