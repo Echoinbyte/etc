@@ -12,6 +12,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { ExtendedButton } from "@/components/shared/ExtendedButton";
 import { Menu } from "@/types";
 
 function Navbar() {
@@ -76,26 +77,24 @@ function Navbar() {
               );
             })}
           </NavigationMenuList>
-        </NavigationMenu>
+        </NavigationMenu>{" "}
         <div className="signature flex flex-row justify-between items-center gap-4">
-          <Link href={"/sign-in"}>
-            <button
-              className={
-                "cursor-pointer py-2 px-6 bg-transparent font-bold rounded-full hover:bg-secondary hover:text-secondary-foreground transition-colors duration-300"
-              }
-            >
-              <span>Sign in</span>
-            </button>
-          </Link>
-          <Link href={"/sign-up"}>
-            <button
-              className={
-                "cursor-pointer py-2 px-6 bg-transparent font-bold border-2 border-secondary rounded-full hover:bg-secondary hover:text-secondary-foreground transition-colors duration-300"
-              }
-            >
-              <span>Get Started &rarr; </span>
-            </button>
-          </Link>
+          <ExtendedButton
+            link="/sign-in"
+            variant="ghost"
+            size="sm"
+            className="text-secondary hover:bg-secondary hover:text-secondary-foreground"
+          >
+            Sign in
+          </ExtendedButton>
+          <ExtendedButton
+            link="/sign-up"
+            variant="outline"
+            size="sm"
+            className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground hover:border-secondary/80"
+          >
+            Get Started
+          </ExtendedButton>
         </div>
       </header>
     </>

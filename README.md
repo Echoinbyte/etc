@@ -99,6 +99,15 @@ git push origin feat/your-feature
 
 Then open a PR!
 
+# 👥 Contributors
+
+Thanks to these amazing people who have contributed to ETC:
+
+- **[Sambhav Aryal (echoinbyte)](https://github.com/echoinbyte)** - Project Creator & Lead Developer
+- **[GitHub Copilot](https://github.com/features/copilot)** - ExtendedButton Component Architecture & Enhancement
+
+Want to see your name here? Check out our [Contributing Guidelines](#-contributing) and submit a PR!
+
 # 📄 License
 
 MIT © Sambhav Aryal
