@@ -122,6 +122,51 @@
 }
 
 
+/* Custom scrollbar styles */
+.scrollbar-thin {
+    scrollbar-width: thin;
+}
+
+.scrollbar-track-transparent {
+    scrollbar-color: transparent transparent;
+}
+
+.scrollbar-thumb-border {
+    scrollbar-color: hsl(var(--border)) transparent;
+}
+
+/* For webkit browsers */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.scrollbar-track-transparent::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scrollbar-thumb-border::-webkit-scrollbar-thumb {
+    background: hsl(var(--border));
+    border-radius: 3px;
+}
+
+.scrollbar-thumb-border::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--border) / 0.8);
+}
+
+/* Dark mode scrollbar improvements */
+.dark .scrollbar-thumb-border {
+    scrollbar-color: hsl(var(--border) / 0.6) transparent;
+}
+
+.dark .scrollbar-thumb-border::-webkit-scrollbar-thumb {
+    background: hsl(var(--border) / 0.6);
+}
+
+.dark .scrollbar-thumb-border::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--border) / 0.8);
+}
+
 @layer base {
     * {
         @apply border-border outline-ring/50;

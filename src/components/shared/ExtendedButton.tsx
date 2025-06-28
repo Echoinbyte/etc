@@ -15,6 +15,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   loading?: boolean;
   fullWidth?: boolean;
   asChild?: boolean; // render as a different element
+  onClick?: () => void;
 }
 
 export type { ButtonProps };
@@ -128,8 +129,8 @@ function useButtonStyles(
  * </ExtendedButton>
  */
 export function ExtendedButton({
-  children = "Get started",
-  link = "/signup",
+  children = "",
+  link = "/auth/signin",
   className = "",
   variant = "primary",
   size = "md",
@@ -140,6 +141,7 @@ export function ExtendedButton({
   fullWidth = false,
   asChild = false,
   disabled,
+  onClick,
   ...props
 }: ButtonProps) {
   const { baseStyle, sizeStyle, variantStyle } = useButtonStyles(variant, size);
@@ -191,14 +193,15 @@ export function ExtendedButton({
         fullWidth ? "w-full" : ""
       } ${className}`}
       disabled={disabled || loading}
+      onClick={onClick}
       {...props}
     >
       {buttonContent}
     </button>
   );
 
-  // Return button without Link wrapper if asChild or no link
-  if (asChild || !link) {
+  // Return button without Link wrapper if asChild, no link, or has onClick
+  if (asChild || !link || onClick) {
     return buttonElement;
   }
 

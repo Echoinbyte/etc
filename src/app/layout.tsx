@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import React from "react";
+import { SessionProvider } from "@/components/providers/SessionProvider";
+import { Toaster } from "sonner";
+import Navbar from "@/components/navigation/Navbar";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -20,7 +23,13 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} dark`}>{children}</body>
+      <body className={`${inter.variable} dark scrollbar-gutter-stable`}>
+        <SessionProvider>
+          <Navbar />
+          {children}
+          <Toaster />
+        </SessionProvider>
+      </body>
     </html>
   );
 }
