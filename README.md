@@ -4,8 +4,8 @@
 HTML + CSS email templates. Whether you're a solo dev, indie hacker, startup, or part of a marketing team, ETC makes
 email development **as easy as copy, paste, and send.**
 
-[![ETC Demo](https://etc.vercel.app/brand/etc.svg)](https://etc.vercel.app)  
-🔗 [Live Site](https://etc.vercel.app)
+[![ETC Demo](https://etcdot.vercel.app/brand/etc.svg)](https://etcdot.vercel.app)  
+🔗 [Live Site](https://etcdot.vercel.app)
 
 ---
 
