@@ -4,7 +4,7 @@
 HTML + CSS email templates. Whether you're a solo dev, indie hacker, startup, or part of a marketing team, ETC makes
 email development **as easy as copy, paste, and send.**
 
-[![ETC Demo](https://etc.vercel.app/demo.png)](https://etc.vercel.app)  
+[![ETC Demo](https://etc.vercel.app/brand/etc.svg)](https://etc.vercel.app)  
 🔗 [Live Site](https://etc.vercel.app)
 
 ---
@@ -40,8 +40,8 @@ Creating email templates that look good across clients is a **headache**. ETC so
 | `/` or `/home`       | Discover curated email templates           |
 | `/community`         | Browse user-contributed designs            |
 | `/publish`           | Publish your own email component           |
-| `/contribute`        | Edit, enhance, or remix existing templates |
-| `/about`, `/contact` | Learn about ETC or reach out to the team   |
+| `/publish/contribute`| Edit, enhance, or remix existing templates |
+| `/publish/about`     | Learn about ETC or reach out to the team   |
 
 ---
 
@@ -104,7 +104,7 @@ Then open a PR!
 Thanks to these amazing people who have contributed to ETC:
 
 - **[Sambhav Aryal (echoinbyte)](https://github.com/echoinbyte)** - Project Creator & Lead Developer
-- **[GitHub Copilot](https://github.com/features/copilot)** - ExtendedButton Component Architecture & Enhancement
+- **[GitHub Copilot](https://github.com/features/copilot)** - ExtendedButton Component Architecture & Enhancement, Email Template Mockups & Static Page Designs
 
 Want to see your name here? Check out our [Contributing Guidelines](#-contributing) and submit a PR!
 

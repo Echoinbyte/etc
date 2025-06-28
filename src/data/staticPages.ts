@@ -133,7 +133,7 @@ export const staticPages: StaticPagesMap = {
           <div style="margin-bottom: 35px;">
             <h2 style="color: #2c3e50; font-size: 24px; margin: 0 0 15px 0; border-bottom: 3px solid #3498db; padding-bottom: 8px; display: inline-block;">🎯 Our Mission</h2>
             <p style="line-height: 1.7; color: #555; font-size: 16px; margin: 0;">
-              We believe that creating beautiful email templates should be accessible to everyone. Our platform democratizes email design by providing powerful, professional tools wrapped in an intuitive interface that anyone can master.
+              ETC (Email Template Community) was created to democratize email design. We believe that creating beautiful email templates should be accessible to everyone, regardless of their design or coding experience. Our platform provides powerful, professional tools wrapped in an intuitive interface that anyone can master.
             </p>
           </div>
           
@@ -142,8 +142,28 @@ export const staticPages: StaticPagesMap = {
               <span>💡</span> Why We Started
             </h3>
             <p style="margin: 0; color: #666; line-height: 1.6; font-size: 15px;">
-              After years of wrestling with complex email builders and coding templates from scratch, we knew there had to be a better way. So we built it. ETC was born from the frustration of designers and developers who wanted to create beautiful emails without the headaches.
+              Hi! I'm Sambhav Aryal, the creator of ETC. After years of wrestling with complex email builders and coding templates from scratch, I knew there had to be a better way. So I built it. ETC was born from the frustration of developers and designers who wanted to create beautiful emails without the headaches.
             </p>
+          </div>
+          
+          <div style="background: linear-gradient(135deg, #e8f4f8 0%, #d1ecf1 100%); padding: 25px; margin: 30px 0; border-radius: 12px; border-left: 5px solid #3498db;">
+            <h3 style="margin: 0 0 15px 0; color: #2c3e50; font-size: 20px; display: flex; align-items: center; gap: 8px;">
+              <span>👨‍💻</span> About the Creator
+            </h3>
+            <p style="margin: 0 0 15px 0; color: #666; line-height: 1.6; font-size: 15px;">
+              <strong>Sambhav Aryal</strong> is a passionate developer and open-source advocate who loves building tools that make developers' lives easier. When not coding, you can find him contributing to the open-source community or exploring new technologies.
+            </p>
+            <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 15px;">
+              <a href="https://github.com/echoinbyte" style="color: #3498db; text-decoration: none; font-size: 14px; display: flex; align-items: center; gap: 5px;">
+                🐙 GitHub: @echoinbyte
+              </a>
+              <a href="https://twitter.com/echoinbyte" style="color: #3498db; text-decoration: none; font-size: 14px; display: flex; align-items: center; gap: 5px;">
+                🐦 Twitter: @echoinbyte
+              </a>
+              <a href="https://linkedin.com/in/echoinbyte" style="color: #3498db; text-decoration: none; font-size: 14px; display: flex; align-items: center; gap: 5px;">
+                💼 LinkedIn: @echoinbyte
+              </a>
+            </div>
           </div>
           
           <div style="margin: 35px 0;">
@@ -183,6 +203,7 @@ export const staticPages: StaticPagesMap = {
         
         <footer style="background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%); color: white; padding: 25px 30px; text-align: center;">
           <p style="margin: 0; font-size: 16px; font-weight: 500;">Ready to join our community? Start creating today! 🎉</p>
+          <p style="margin: 10px 0 0 0; font-size: 14px; opacity: 0.8;">Made with ❤️ by Sambhav Aryal</p>
         </footer>
       </div>
     `,
@@ -221,15 +242,15 @@ export const staticPages: StaticPagesMap = {
                   <span style="font-size: 20px; margin-right: 12px;">📧</span>
                   <div>
                     <strong style="color: #ff6b6b; font-size: 14px;">Email:</strong><br/>
-                    <span style="color: #666; font-size: 15px;">hello@etc-platform.com</span>
+                    <span style="color: #666; font-size: 15px;">echoinbyte@gmail.com</span>
                   </div>
                 </div>
                 
                 <div style="display: flex; align-items: center; margin: 15px 0; padding: 12px; background: #fff5f5; border-radius: 8px;">
-                  <span style="font-size: 20px; margin-right: 12px;">💬</span>
+                  <span style="font-size: 20px; margin-right: 12px;">�</span>
                   <div>
-                    <strong style="color: #ff6b6b; font-size: 14px;">Support:</strong><br/>
-                    <span style="color: #666; font-size: 15px;">support@etc-platform.com</span>
+                    <strong style="color: #ff6b6b; font-size: 14px;">GitHub:</strong><br/>
+                    <span style="color: #666; font-size: 15px;">github.com/echoinbyte</span>
                   </div>
                 </div>
                 
@@ -237,7 +258,7 @@ export const staticPages: StaticPagesMap = {
                   <span style="font-size: 20px; margin-right: 12px;">🐦</span>
                   <div>
                     <strong style="color: #ff6b6b; font-size: 14px;">Twitter:</strong><br/>
-                    <span style="color: #666; font-size: 15px;">@etc_platform</span>
+                    <span style="color: #666; font-size: 15px;">@echoinbyte</span>
                   </div>
                 </div>
                 
@@ -245,13 +266,13 @@ export const staticPages: StaticPagesMap = {
                   <span style="font-size: 20px; margin-right: 12px;">💼</span>
                   <div>
                     <strong style="color: #ff6b6b; font-size: 14px;">LinkedIn:</strong><br/>
-                    <span style="color: #666; font-size: 15px;">/company/etc-platform</span>
+                    <span style="color: #666; font-size: 15px;">linkedin.com/in/echoinbyte</span>
                   </div>
                 </div>
               </div>
               
               <div style="text-align: center; margin-top: 25px;">
-                <a href="mailto:hello@etc-platform.com" style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%); color: white; padding: 14px 28px; text-decoration: none; border-radius: 25px; font-weight: 600; display: inline-block; box-shadow: 0 4px 15px rgba(255,107,107,0.3); transition: all 0.3s ease;">
+                <a href="mailto:echoinbyte@gmail.com" style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%); color: white; padding: 14px 28px; text-decoration: none; border-radius: 25px; font-weight: 600; display: inline-block; box-shadow: 0 4px 15px rgba(255,107,107,0.3); transition: all 0.3s ease;">
                   Send Email 📩
                 </a>
               </div>
@@ -353,7 +374,7 @@ export const staticPages: StaticPagesMap = {
                 🎨 Start Contributing
               </a>
               <br/>
-              <a href="https://github.com/etc-community" style="background: rgba(255,255,255,0.1); color: white; padding: 12px 24px; text-decoration: none; border-radius: 30px; font-weight: 500; display: inline-block; margin: 0 10px; font-size: 14px; border: 1px solid rgba(255,255,255,0.2);">
+              <a href="https://github.com/echoinbyte/etc" style="background: rgba(255,255,255,0.1); color: white; padding: 12px 24px; text-decoration: none; border-radius: 30px; font-weight: 500; display: inline-block; margin: 0 10px; font-size: 14px; border: 1px solid rgba(255,255,255,0.2);">
                 📚 View on GitHub
               </a>
             </div>
