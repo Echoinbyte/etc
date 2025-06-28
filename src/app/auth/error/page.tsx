@@ -86,9 +86,9 @@ function AuthErrorContent() {
         {error === "OAuthAccountNotLinked" && (
           <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
             <p className="text-sm text-blue-800 dark:text-blue-200">
-              <strong>Tip:</strong> If you previously signed up with Google,
-              use Google to sign in. If you signed up with GitHub, use GitHub
-              to sign in.
+              <strong>Tip:</strong> If you previously signed up with Google, use
+              Google to sign in. If you signed up with GitHub, use GitHub to
+              sign in.
             </p>
           </div>
         )}
@@ -121,19 +121,21 @@ function AuthErrorContent() {
 export default function AuthErrorPage() {
   return (
     <div className="min-h-screen bg-background text-foreground flex items-center justify-center p-4">
-      <Suspense fallback={
-        <Card className="w-full max-w-md">
-          <CardHeader className="text-center">
-            <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 dark:bg-gray-800">
-              <AlertCircle className="h-6 w-6 text-gray-600 dark:text-gray-400" />
-            </div>
-            <CardTitle className="text-xl font-bold">Loading...</CardTitle>
-            <CardDescription className="text-center">
-              Please wait while we load the error details.
-            </CardDescription>
-          </CardHeader>
-        </Card>
-      }>
+      <Suspense
+        fallback={
+          <Card className="w-full max-w-md">
+            <CardHeader className="text-center">
+              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 dark:bg-gray-800">
+                <AlertCircle className="h-6 w-6 text-gray-600 dark:text-gray-400" />
+              </div>
+              <CardTitle className="text-xl font-bold">Loading...</CardTitle>
+              <CardDescription className="text-center">
+                Please wait while we load the error details.
+              </CardDescription>
+            </CardHeader>
+          </Card>
+        }
+      >
         <AuthErrorContent />
       </Suspense>
     </div>
