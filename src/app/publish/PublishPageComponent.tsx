@@ -147,9 +147,6 @@ export default function PublishPageComponent({
   // Get actual session data
   const { data: session, status } = useSession();
 
-  console.log("🔍 Publish page - Session status:", status);
-  console.log("🔍 Publish page - Session data:", session);
-
   useEffect(() => {
     const checkIsMobile = () => {
       setIsMobile(window.innerWidth < 768);

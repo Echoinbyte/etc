@@ -24,8 +24,6 @@ import type { EmailTemplate } from "@/data/mockTemplates";
 
 export default function CommunityPage() {
   const { data: session, status } = useSession();
-  console.log("🔍 Session status:", status);
-  console.log("🔍 Session data:", session);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [likedTemplates, setLikedTemplates] = useState<Set<string>>(new Set());
